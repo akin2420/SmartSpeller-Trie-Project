@@ -18,7 +18,7 @@ public class Trie {
         current.isEndOfWord = true;
     }
 
-    // UNUTTUĞUMUZ METOT BURASI :)
+    
     public boolean search(String word) {
         TrieNode current = root;
         for(char ch : word.toLowerCase().toCharArray()){
@@ -30,7 +30,7 @@ public class Trie {
         return current.isEndOfWord;
     }
 
-    // Limit parametresi eklenmiş öneri metodu
+    
     public List<String> getSuggestions(String prefix, int limit) {
         List<String> suggestions = new ArrayList<>();
         TrieNode current = root;
@@ -44,7 +44,6 @@ public class Trie {
     }
 
     private void collectAllWords(TrieNode node, String currentWord, List<String> results, int limit) {
-        // FREN 1
         if (results.size() >= limit) return;
 
         if(node.isEndOfWord) {
@@ -52,7 +51,6 @@ public class Trie {
         }
 
         for(char ch : node.children.keySet()) {
-            // FREN 2
             if (results.size() >= limit) return;
             collectAllWords(node.children.get(ch), currentWord + ch, results, limit);
         }
