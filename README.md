@@ -40,3 +40,5 @@ dictionary.txt (50.000 kelimelik veri seti) dosyasının doğru dizinde olduğun
 
 4. Çalıştırın:
 Ana Java sınıfını derleyip çalıştırarak yerel sunucuyu ayağa kaldırın ve tarayıcınızdan localhost üzerinden web arayüzüne erişin.
+
+![SmartSpeller Arayüzü](smartspeller-demo.png)
