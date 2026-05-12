@@ -1,4 +1,4 @@
-# SmartSpeller ✍️🚀
+# SmartSpeller 
 
 SmartSpeller, **Java** kullanılarak geliştirilmiş, merkezinde **Trie (Önek Ağacı)** veri yapısı bulunan yüksek performanslı bir otomatik kelime tamamlama (autocomplete) ve arama motoru projesidir. 
 
